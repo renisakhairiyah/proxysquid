@@ -134,7 +134,8 @@ Meng-*update* package Ubuntu Server, kemudian *install* kebutuhan sistem seperti
     ```
     
 ### Cara Pemakaian
-Pengujian dilakukan pada *web browser* di komputer *client*. 
+Pengaturan dilakukan pada *web browser* di komputer *client*. 
+![2](https://github.com/renisakhairiyah/proxysquid/blob/master/client-2.PNG)
 
 ### Pembahasan
 
