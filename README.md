@@ -6,6 +6,7 @@
 
 ### Instalasi
 Topologi Jaringan 
+ ![1](https://github.com/renisakhairiyah/proxysquid/blob/master/Topologi%20Komdat%20(1).png)
 
 
 Kebutuhan Sistem:
