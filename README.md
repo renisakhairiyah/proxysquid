@@ -7,7 +7,7 @@
 ### Instalasi
 Topologi Jaringan 
 
- ![1](https://github.com/renisakhairiyah/proxysquid/blob/master/Topologi%20Komdat%20(1).png)
+ ![1](https://github.com/renisakhairiyah/proxysquid/blob/master/Topologi.png)
 
 
 Kebutuhan Sistem:
@@ -94,7 +94,13 @@ Meng-*update* package Ubuntu Server, kemudian *install* kebutuhan sistem seperti
     #baris 7625: Menginisialisasikan proxy tidak sebagai forwarded
     forwarded_for off
     ```
-2. Menjalankan service squid
+2. Membuat file `/etc/squid/blok.acl` untuk menyimpan daftar situs yang akan diblok
+   ```sh
+   nano /etc/squid/blok.acl
+      ftp.debian.org
+      facebook.com
+   ```
+3. Menjalankan service squid
     ```sh
     #systemctl restart squid
     ```
