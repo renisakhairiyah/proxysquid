@@ -65,7 +65,7 @@ Meng-*update* package Ubuntu Server, kemudian *install* kebutuhan sistem seperti
 # apt-get -y install sarg
 # apt-get -y install apache2 
 ```
-##### Konfigurasi Squid Proxy
+#### Konfigurasi Squid Proxy
 1. Mengatur konfigurasi squid pada file `/etc/squid/squid.conf`
     ```sh
     #baris 989: Mendefinisikan ACL lan dari network 172.16.1.0/24
@@ -104,7 +104,7 @@ Meng-*update* package Ubuntu Server, kemudian *install* kebutuhan sistem seperti
     ```sh
     #systemctl restart squid
     ```
-##### Konfigurasi Squid Log Report: Sarg 
+#### Konfigurasi Squid Log Report: Sarg 
 1. Mengatur konfigurasi Sarg pada `file /etc/sarg/sarg.conf`
     ```sh
     #baris 120 jangan diberi komentar dan baris 121 beri komentar
