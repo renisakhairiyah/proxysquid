@@ -140,7 +140,7 @@ Meng-*update* package Ubuntu Server, kemudian *install* kebutuhan sistem seperti
     ```
     
 ### Cara Pemakaian
-Pengaturan dilakukan pada *web browser* di komputer *client*. 
+Pengaturan dilakukan pada *web browser* di komputer *client*. Pengaturan ini diperlukan karena pada implementasi tidak menerapkan transparent proxy. 
 ![2](https://github.com/renisakhairiyah/proxysquid/blob/master/client-2.PNG)
 
 ### Pembahasan
