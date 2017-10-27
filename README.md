@@ -1,5 +1,5 @@
 # Squid Proxy Server
-
+![3](https://github.com/renisakhairiyah/proxysquid/blob/master/squid.jpg)
 ### Sekilas Tentang
 
 (Penjelasan singkat proxy server)
