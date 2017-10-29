@@ -1,8 +1,11 @@
 # Squid Proxy Server
 ![1](https://github.com/renisakhairiyah/proxysquid/blob/master/squid.jpg)
 ### Sekilas Tentang
-
+** 1. Proxy Server **
 (Penjelasan singkat proxy server)
+** 2. Squid Server **
+(Penjelasan singkat squid server)
+
 
 ### Instalasi
 Topologi Jaringan 
@@ -150,6 +153,8 @@ Monitoring dapat dilakukakan di *web browser* dengan mengetikkan uri `172.16.1.2
 ### Pembahasan
 
 ### Referensi
+Arjuni S. Perancangan Dan Implementasi Proxy Server Dan Manajemen Bandwidth Menggunakan Linux Ubuntu Server [Internet]. [diacu 2017 Oktober 29]. Tersedia dari: http://www.academia.edu/4045548/JURNAL_PA_PERANCANGAN_DAN_IMPLEMENTASI_PROXY_SERVER_DAN_MANAJEMEN_BANDWIDTH_MENGGUNAKAN_LINUX_UBUNTU_SERVER
+Rifqi M. Mengenal Proxy Server [Internet]. [diacu 2017 Oktober 29]. Tersedia dari: http://masrifqi.staff.ugm.ac.id/doc/Squid-proxy-server.pdf
 
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
