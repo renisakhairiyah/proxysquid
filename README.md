@@ -1,9 +1,9 @@
 # Squid Proxy Server
 ![1](https://github.com/renisakhairiyah/proxysquid/blob/master/squid.jpg)
 ### Sekilas Tentang
-Proxy atau biasa disebut proxy server merupakan pihak ketiga yang berdiri ditengah-tengah antara kedua pihak yang saling berhubungan dan berfungsi sebagai perantara. Dengan mengunakan squid proxy, pengguna tidak perlu mengakses langsung halaman web yang dituju, melainkan cukup dengan mengambilnya di cache server (proxy).
-Cara kerja proxy server adalah ketika ada client yang mengkses suatu alamat web, misalkan client A mengakses ke alamat www.github.com, maka proxy akan menyimpan file-file halaman web tersebut ke dalam cache lokal proxy tersebut, ketika ada client lain, misalkan Client B mengakses halaman web yang sama dari www.github.com maka proxy server hanya melakukan pengecekan ke server yang dituju (www.github.com), apakah obyek yang disimpan di cache local proxy masih sama dengan yang ada di server web tujuan, apabila tidak ada perubahan obyek pada server maka proxy akan memberikan obyek yang diminta ke client B tersebut, dan apabila ternyata telah ada perubahan barulah proxy server memintakannya ke server (www.github.com) untuk Client B yang mengakses server web tersebut, sementara itu file yang diberikan kepada client tersebut juga akan disimpan di direktori cache pada proxy sever, dan begitu seterusnya sehingga secara tidak langsung   metode ini akan menghemat bandwidth dan secara tidak langsung akan mempercepat koneksi internet.
-Selain fungsi caching, proxy server juga dapat digunakan untuk membuat kebijakan keamanan jaringan lokal. Aplikasi proxy server yang paling populer digunakan adalah squid, dikarenakan merupakan aplikasi server yang stabil dengan performance yang tinggi, serta merupakan aplikasi web proxy yang fleksibel untuk digunakan sebagai web cache.
+Proxy atau biasa disebut Proxy server merupakan pihak ketiga yang berdiri ditengah-tengah antara kedua pihak yang saling berhubungan dan berfungsi sebagai perantara. Dengan mengunakan proxy, pengguna tidak perlu mengakses langsung halaman web yang dituju, melainkan cukup dengan mengambilnya di *cache server* (proxy).
+Cara kerja proxy server adalah ketika ada *client* yang mengkses suatu alamat web, misalkan *Client* A mengakses ke alamat www.github.com, maka proxy akan menyimpan file-file halaman web tersebut ke dalam *cache* lokal proxy tersebut. Ketika ada *client* lain, misalkan *Client* B mengakses halaman web yang sama dari www.github.com maka proxy server akan melakukan pengecekan ke server yang dituju (www.github.com), apakah obyek yang disimpan di *cache local proxy* masih sama dengan yang ada di server web tujuan, apabila tidak ada perubahan obyek pada server maka proxy akan memberikan obyek yang diminta ke *client* B tersebut, dan apabila ternyata telah ada perubahan barulah proxy server memintakannya ke server (www.github.com) untuk *Client* B yang mengakses server web tersebut, sementara itu file yang diberikan kepada client tersebut juga akan disimpan di direktori *cache* pada proxy sever, dan begitu seterusnya sehingga secara tidak langsung metode ini akan menghemat *bandwidth* dan mempercepat koneksi internet.
+Selain fungsi *caching*, proxy server juga dapat digunakan untuk membuat kebijakan keamanan di jaringan lokal. Aplikasi proxy server yang cukup populer adalah Squid. Squid merupakan aplikasi *server* yang stabil dengan *performance* yang tinggi dan juga merupakan aplikasi *web* proxy yang fleksibel untuk digunakan sebagai *web cache*.
 
 ### Instalasi
 Topologi Jaringan 
@@ -149,18 +149,17 @@ Monitoring dapat dilakukakan di *web browser* dengan mengetikkan uri `172.16.1.2
 ![4](https://github.com/renisakhairiyah/proxysquid/blob/master/client-3.PNG)
 
 ### Pembahasan
-Dengan menggunakan proxy server, pengaksesan ulang website menjadi lebih cepat karena adanya cache. Beberapa kelebihan Proxy Server Squid adalah sebagai berikut:
-1. Kestabilannya untuk menghandle sebuah jaringan yang berskala besar, biasanya ISP atau sebuah institusi perguruan tinggi   menggunakan Squid sebagai Proxy Server
-2. Squid memungkinkan Penyedia Internet untuk menghemat bandwidth mereka melalui content caching.
-3. Kemampuan filtering yang baik.
-4. Kemampuan parent dan sibling, dengan menerapkan hubungan parent atau sibling antar squid Proxy Server yang ada maka dapat di bangun sebuah jaringan cache yang tersusun secara hirarki yang dapat lebih menghemat waktu akses dan bandwidth
-5. Relatif mudah untuk dikonfigurasi
-6. Gratis, dibawah GPL/GNU.
+Beberapa kelebihan Proxy Server Squid adalah sebagai berikut:
+1. Kestabilannya untuk menangani sebuah jaringan yang berskala besar.
+2. Adanya *content caching* memungkinkan untuk mengakses ulang web menjadi lebih cepat dan dapat menghemat *bandwidth*.
+3. Kemampuan *filtering*.
+4. Gratis, dibawah *General Public License*(GPL/GNU).
 
 Proxy server juga memiliki beberapa kelemahan diantaranya:
 1. Penggunaan proxy server squid menggunakan jumlah RAM yang cukup besar
 2. Pengaksesan ke alamat yang belum masuk ke proxy jadi lebih lambat karena harus melalui proxy terlebih dahulu
-3. Bila proxy server terlambat melakukan update cache, maka client akan mendapatkan content yang belum update ketika melakukan request content tersebut.
+3. Bila proxy server terlambat melakukan *update cache*, maka *client* akan mendapatkan *content* yang belum diperbaharui
+4. Squid tidak dapat memblokir HTTPS
 
 ### Referensi
 Arjuni S. Perancangan Dan Implementasi Proxy Server Dan Manajemen Bandwidth Menggunakan Linux Ubuntu Server [Internet]. [diacu 2017 Oktober 29]. Tersedia dari: http://www.academia.edu/4045548/JURNAL_PA_PERANCANGAN_DAN_IMPLEMENTASI_PROXY_SERVER_DAN_MANAJEMEN_BANDWIDTH_MENGGUNAKAN_LINUX_UBUNTU_SERVER
