@@ -6,11 +6,13 @@
 
 ### Sekilas Tentang
 [`^ kembali ke atas ^`](#squid-proxy-server)
+   
    Proxy atau biasa disebut Proxy server merupakan server yang diletakkan di antara suatu aplikasi client dan aplikasi server yang dihubungi.Proxy server yang diletakkan diantara aplikasi client dan aplikasi server tersebut dapat digunakan untuk mengendalikan maupun memonitor lalu-lintas paket data yang melewatinya. Aplikasi client dapat berupa browser web, client FTP, dan sebagainya. Aplikasi server dapat berupa server web, server FTP dan sebagainya.
    Selain fungsi *caching*, proxy server juga dapat digunakan untuk membuat kebijakan keamanan di jaringan lokal. Aplikasi proxy server yang cukup populer adalah Squid. Squid merupakan aplikasi *server* yang stabil dengan *performance* yang tinggi dan juga merupakan aplikasi *web* proxy yang fleksibel untuk digunakan sebagai *web cache*.
 
 ### Instalasi
 [`^ kembali ke atas ^`](#squid-proxy-server)
+
 Topologi Jaringan 
 
  ![2](https://github.com/renisakhairiyah/proxysquid/blob/master/Topologi.png)
@@ -66,6 +68,7 @@ Kebutuhan Sistem:
 
 #### Konfigurasi Server
 [`^ kembali ke atas ^`](#squid-proxy-server)
+
 Meng-*update* package Ubuntu Server, kemudian *install* kebutuhan sistem seperti Squid, Apache2, dan Sarg. 
 ```sh
 # apt-get update
@@ -149,6 +152,7 @@ Meng-*update* package Ubuntu Server, kemudian *install* kebutuhan sistem seperti
    
 ### Cara Pemakaian
 [`^ kembali ke atas ^`](#squid-proxy-server)
+
 Pengaturan dilakukan pada *web browser* di komputer *client* dengan memilih menu `Edit > Preference > Advance > Network` kemudian `Setting` pada bagian Connection. Pengaturan ini diperlukan karena pada implementasi saat ini tidak menerapkan transparent proxy.   
 ![3](https://github.com/renisakhairiyah/proxysquid/blob/master/pengaturan.PNG)
 
@@ -158,6 +162,7 @@ Pilih `Manual Configuration` dan isi dengan alamat IP server proxy yaitu `172.16
 
 ### Monitoring Log Proxy: Sarg
 [`^ kembali ke atas ^`](#squid-proxy-server)
+
 Monitoring dapat dilakukakan di *web browser* dengan mengetikkan uri `172.16.1.254/squid-reports/`.
 
 - Halaman awal dari *report* proxy berisi informasi tanggal *report*, jumlah *user* yang mengakses jaringan, dan ukuran *file* yang berhasil di *caching* oleh proxy.
@@ -190,6 +195,7 @@ Cara kerja proxy server adalah ketika ada *client* yang mengkses suatu alamat we
 
 ### Referensi
 [`^ kembali ke atas ^`](#squid-proxy-server)
+
 Arjuni S. Perancangan Dan Implementasi Proxy Server Dan Manajemen Bandwidth Menggunakan Linux Ubuntu Server [Internet]. [diacu 2017 Oktober 29]. Tersedia dari: http://www.academia.edu/4045548/JURNAL_PA_PERANCANGAN_DAN_IMPLEMENTASI_PROXY_SERVER_DAN_MANAJEMEN_BANDWIDTH_MENGGUNAKAN_LINUX_UBUNTU_SERVER
 
 Rifqi M. Mengenal Proxy Server [Internet]. [diacu 2017 Oktober 29]. Tersedia dari: http://masrifqi.staff.ugm.ac.id/doc/Squid-proxy-server.pdf
