@@ -146,6 +146,8 @@ Pengaturan dilakukan pada *web browser* di komputer *client*. Pengaturan ini dip
 ### Monitoring Log Proxy: Sarg
 Monitoring dapat dilakukakan di *web browser* dengan mengetikkan uri `172.16.1.254/squid-reports/`.
 ![4](https://github.com/renisakhairiyah/proxysquid/blob/master/client-3.PNG)
+![5](https://github.com/renisakhairiyah/proxysquid/blob/master/report1.PNG)
+![6](https://github.com/renisakhairiyah/proxysquid/blob/master/report2.PNG)
 
 ### Pembahasan
 **Cara Kerja**
