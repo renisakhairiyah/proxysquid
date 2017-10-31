@@ -144,6 +144,7 @@ Pengaturan dilakukan pada *web browser* di komputer *client*. Pengaturan ini dip
 ![7](https://github.com/renisakhairiyah/proxysquid/blob/master/pengaturan.PNG)
 
 Pilih `Manual Configuration` dan isi dengan alamat IP server proxy yaitu `172.16.1.254` dengan nomor port `3128`
+
 ![3](https://github.com/renisakhairiyah/proxysquid/blob/master/client-2.PNG)
 
 ### Monitoring Log Proxy: Sarg
