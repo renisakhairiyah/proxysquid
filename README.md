@@ -140,7 +140,7 @@ Meng-*update* package Ubuntu Server, kemudian *install* kebutuhan sistem seperti
     ```
    
 ### Cara Pemakaian
-Pengaturan dilakukan pada *web browser* di komputer *client*. Pengaturan ini diperlukan karena pada implementasi saat ini tidak menerapkan transparent proxy.Cara pengaturan dilakukan di menu `Edit > Preference > Advance > Network`. Kemudian `Setting` pada bagian Connection. 
+Pengaturan dilakukan pada *web browser* di komputer *client* dengan memilih menu `Edit > Preference > Advance > Network` kemudian `Setting` pada bagian Connection. Pengaturan ini diperlukan karena pada implementasi saat ini tidak menerapkan transparent proxy.   
 ![7](https://github.com/renisakhairiyah/proxysquid/blob/master/pengaturan.PNG)
 
 Pilih `Manual Configuration` dan isi dengan alamat IP server proxy yaitu `172.16.1.254` dengan nomor port `3128`
