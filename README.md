@@ -1,5 +1,7 @@
 # Squid Proxy Server
 ![1](https://github.com/renisakhairiyah/proxysquid/blob/master/squid.jpg)
+[Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi Router Mikrotik](#konfigurasi-router-mikrotik) | [Konfigurasi Server](#konfigurasi-server) | [Cara Pemakaian](#cara-pemakaian) | [Monitoring Log Proxy:Sarg](#monitoring-log-proxy-sarg) | [Pembahasan](#pembahasan)|[Referensi](#referensi)
+:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:
 ### Sekilas Tentang
    Proxy atau biasa disebut Proxy server merupakan server yang diletakkan di antara suatu aplikasi client dan aplikasi server yang dihubungi.Proxy server yang diletakkan diantara aplikasi client dan aplikasi server tersebut dapat digunakan untuk mengendalikan maupun memonitor lalu-lintas paket data yang melewatinya. Aplikasi client dapat berupa browser web, client FTP, dan sebagainya. Aplikasi server dapat berupa server web, server FTP dan sebagainya.
    Selain fungsi *caching*, proxy server juga dapat digunakan untuk membuat kebijakan keamanan di jaringan lokal. Aplikasi proxy server yang cukup populer adalah Squid. Squid merupakan aplikasi *server* yang stabil dengan *performance* yang tinggi dan juga merupakan aplikasi *web* proxy yang fleksibel untuk digunakan sebagai *web cache*.
