@@ -141,23 +141,23 @@ Meng-*update* package Ubuntu Server, kemudian *install* kebutuhan sistem seperti
    
 ### Cara Pemakaian
 Pengaturan dilakukan pada *web browser* di komputer *client* dengan memilih menu `Edit > Preference > Advance > Network` kemudian `Setting` pada bagian Connection. Pengaturan ini diperlukan karena pada implementasi saat ini tidak menerapkan transparent proxy.   
-![7](https://github.com/renisakhairiyah/proxysquid/blob/master/pengaturan.PNG)
+![3](https://github.com/renisakhairiyah/proxysquid/blob/master/pengaturan.PNG)
 
-Pilih `Manual Configuration` dan isi dengan alamat IP server proxy yaitu `172.16.1.254` dengan nomor port `3128`
+Pilih `Manual Configuration` dan isi dengan alamat IP server proxy yaitu `172.16.1.254` dengan nomor port `3128`.
 
-![3](https://github.com/renisakhairiyah/proxysquid/blob/master/client-2.PNG)
+![4](https://github.com/renisakhairiyah/proxysquid/blob/master/client-2.PNG)
 
 ### Monitoring Log Proxy: Sarg
 Monitoring dapat dilakukakan di *web browser* dengan mengetikkan uri `172.16.1.254/squid-reports/`.
 
 - Halaman awal dari *report* proxy berisi informasi tanggal *report*, jumlah *user* yang mengakses jaringan, dan ukuran *file* yang berhasil di *caching* oleh proxy.
-![4](https://github.com/renisakhairiyah/proxysquid/blob/master/report.PNG)
+![5](https://github.com/renisakhairiyah/proxysquid/blob/master/report.PNG)
 
 - Halaman ini untuk melihat jumlah *user* yang mengakses suatu jaringan pada tanggal tertentu
-![5](https://github.com/renisakhairiyah/proxysquid/blob/master/report1.PNG)
+![6](https://github.com/renisakhairiyah/proxysquid/blob/master/report1.PNG)
 
 - Halaman ini untuk melihat informasi situs web yang diakses oleh seorang *user* secara detail pada tanggal tertentu.
-![6](https://github.com/renisakhairiyah/proxysquid/blob/master/report2.PNG)
+![7](https://github.com/renisakhairiyah/proxysquid/blob/master/report2.PNG)
 
 ### Pembahasan
 **Cara Kerja**
