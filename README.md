@@ -148,16 +148,16 @@ Monitoring dapat dilakukakan di *web browser* dengan mengetikkan uri `172.16.1.2
 ![4](https://github.com/renisakhairiyah/proxysquid/blob/master/client-3.PNG)
 
 ### Pembahasan
-#### Cara Kerja
+**Cara Kerja**
  Cara kerja proxy server adalah ketika ada *client* yang mengkses suatu alamat web, misalkan *Client* A mengakses ke alamat www.github.com, maka proxy akan menyimpan file-file halaman web tersebut ke dalam *cache* lokal proxy tersebut. Ketika ada *client* lain, misalkan *Client* B mengakses halaman web yang sama dari www.github.com maka proxy server akan melakukan pengecekan ke server yang dituju (www.github.com), apakah obyek yang disimpan di *cache local proxy* masih sama dengan yang ada di server web tujuan, apabila tidak ada perubahan obyek pada server maka proxy akan memberikan obyek yang diminta ke *client* B tersebut, dan apabila ternyata telah ada perubahan barulah proxy server memintakannya ke server (www.github.com) untuk *Client* B yang mengakses server web tersebut, sementara itu file yang diberikan kepada client tersebut juga akan disimpan di direktori *cache* pada proxy sever, dan begitu seterusnya sehingga secara tidak langsung metode ini akan menghemat *bandwidth* dan mempercepat koneksi internet.
   
-Beberapa kelebihan Proxy Server Squid adalah sebagai berikut:
+**Kelebihan Proxy Server Squid adalah sebagai berikut:**
 1. Kestabilannya untuk menangani sebuah jaringan yang berskala besar.
 2. Adanya *content caching* memungkinkan untuk mengakses ulang web menjadi lebih cepat dan dapat menghemat *bandwidth*.
 3. Kemampuan *filtering*.
 4. Gratis, dibawah *General Public License*(GPL/GNU).
 
-Proxy server juga memiliki beberapa kelemahan diantaranya:
+**Kelemahan Proxy server diantaranya:**
 1. Penggunaan proxy server squid menggunakan jumlah RAM yang cukup besar
 2. Pengaksesan ke alamat yang belum masuk ke proxy jadi lebih lambat karena harus melalui proxy terlebih dahulu
 3. Bila proxy server terlambat melakukan *update cache*, maka *client* akan mendapatkan *content* yang belum diperbaharui
