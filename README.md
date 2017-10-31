@@ -161,6 +161,7 @@ Monitoring dapat dilakukakan di *web browser* dengan mengetikkan uri `172.16.1.2
 
 ### Pembahasan
 **Cara Kerja**
+
 Cara kerja proxy server adalah ketika ada *client* yang mengkses suatu alamat web, misalkan *Client* A mengakses ke alamat www.github.com, maka proxy akan menyimpan file-file halaman web tersebut ke dalam *cache* lokal proxy tersebut. Ketika ada *client* lain, misalkan *Client* B mengakses halaman web yang sama dari www.github.com maka proxy server akan melakukan pengecekan ke server yang dituju (www.github.com), apakah obyek yang disimpan di *cache local proxy* masih sama dengan yang ada di server web tujuan, apabila tidak ada perubahan obyek pada server maka proxy akan memberikan obyek yang diminta ke *client* B tersebut, dan apabila ternyata telah ada perubahan barulah proxy server memintakannya ke server (www.github.com) untuk *Client* B yang mengakses server web tersebut, sementara itu file yang diberikan kepada client tersebut juga akan disimpan di direktori *cache* pada proxy sever, dan begitu seterusnya sehingga secara tidak langsung metode ini akan menghemat *bandwidth* dan mempercepat koneksi internet.
   
 **Kelebihan Proxy Server Squid adalah sebagai berikut:**
