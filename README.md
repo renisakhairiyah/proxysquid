@@ -150,13 +150,12 @@ Pilih `Manual Configuration` dan isi dengan alamat IP server proxy yaitu `172.16
 Monitoring dapat dilakukakan di *web browser* dengan mengetikkan uri `172.16.1.254/squid-reports/`.
 
 - Halaman awal dari *report* proxy berisi informasi tanggal *report*, jumlah *user* yang mengakses jaringan, dan ukuran *file* yang berhasil di *caching* oleh proxy.
-
 ![4](https://github.com/renisakhairiyah/proxysquid/blob/master/report.PNG)
 
-- 
+- Halaman ini untuk melihat jumlah *user* yang mengakses suatu jaringan pada tanggal tertentu
 ![5](https://github.com/renisakhairiyah/proxysquid/blob/master/report1.PNG)
 
-- Halaman ini untuk melihat informasi situs web yang diakses oleh *user* secara detail.
+- Halaman ini untuk melihat informasi situs web yang diakses oleh seorang *user* secara detail pada tanggal tertentu.
 ![6](https://github.com/renisakhairiyah/proxysquid/blob/master/report2.PNG)
 
 ### Pembahasan
